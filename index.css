@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* ----------------
+------- Typo ------
+-----------------*/
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, input {
+    font-weight: 800;
+    color: white;
+}
+
+h2 {
+    color: #CCC1FF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+input {
+    font-size: 58px;
+}
+
+
+/* ----------------
+------- Styling ----
+-------------------*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+}
+
+input {
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    text-align: center;
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+main {
+    background-color: #1F2937;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px 25px;
+}
+
+.container {
+    margin: 11.5px 0;
+    background-color: #273549;
+    width: 500px;
+    height: 108.57px;
+    padding: 31px;
+    text-align: center;
+}
